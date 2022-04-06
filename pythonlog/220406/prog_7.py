@@ -1,20 +1,21 @@
 def geintRange():
-    flag = 0
-    while (flag != 1):
-        flag = 0
-        x = int(input("월을 입력하시오(1부터 12사이의 값)"))
-        if (x >= 1 and x <= 12):
-            flag = 1
-    flag = 0
-    while (flag != 1):
-        flag = 0
-        y = int(input("일을 입력하시오(1부터 31사이의 값)"))
-        if (y >= 1 and y <= 31):
-            flag = 1
-    print(f"입력하신 날짜는 {x}월 {y}일 입니다")
+    flag = 0 # 값을 검사하는 boolen 변수 선언
+    while (flag != 1): # 첫번째로 사용자 입력값의 [월] 범위가 틀렸을 경우 반복하는 루프문
+        flag = 0 # boolen 초기화
+        x = int(input("월을 입력하시오(1부터 12사이의 값)")) # x = 월 입력
+        if (x >= 1 and x <= 12): # 1월부터 12월 사이의 값 일경우 첫 번째 while 루프문 탈출
+            flag = 1 # 참
+    flag = 0 # 두번째로 [일]을 검사하기위한 boolen 변수 초기화
+    while (flag != 1): # 사용자 입력값의 [일] 범위가 틀렸을 경우 반복
+        flag = 0 # boolen 초기화
+        y = int(input("일을 입력하시오(1부터 31사이의 값)")) # y = 일 입력
+        if (y >= 1 and y <= 31): # 1<= y <=31
+            flag = 1 # 사용자 입력값의 범위가 참일경우 루프문 탈출
+    ## 모든루프문 최종탈출 -> 사용자 입력값 [월] [일] 이 범위 내의 정수임
+    print(f"입력하신 날짜는 {x}월 {y}일 입니다") # 모든값이 참을 만족했으므로 출력
 
 print("날짜를 입력하시오")
-geintRange()
+geintRange() # 날짜 출력 함수 호출
 
 
 
