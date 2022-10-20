@@ -1,0 +1,12 @@
+ mid_term score final_term score
+Sung 85 90
+Koo 95 80
+Choi 80 85
+Lee 80 75
+Park 70 60
+Kim 90 95
+Kang 80 90
+Hong 50 60
+Song 90 90
+Nam 85 90
+Chung 70 80

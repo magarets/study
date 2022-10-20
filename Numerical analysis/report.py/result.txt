@@ -1,0 +1,17 @@
+		<Result>
+
+	Average Score		Grade
+Sung		87.5		B
+Koo		87.5		B
+Choi		82.5		B
+Lee		77.5		C
+Park		65.0		D
+Kim		92.5		A
+Kang		85.0		B
+Hong		55.0		F
+Song		90.0		A
+Nam		87.5		B
+Chung		75.0		C
+
+Highest Average Score / Name : 92.5 / Kim
+Lowest Average Score / Name : 55.0 / Hong
